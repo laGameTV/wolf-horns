@@ -1,0 +1,19 @@
+{
+	"description": {
+		"translate": "enchantment.wolf_horns.call_of_the_wild",
+		"fallback": "Call of the Wild"
+	},
+	"supported_items": "minecraft:goat_horn",
+	"weight": 10,
+	"max_level": 3,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 10
+	},
+	"max_cost": {
+		"base": 30,
+		"per_level_above_first": 8
+	},
+	"anvil_cost": 2,
+	"slots": []
+}
