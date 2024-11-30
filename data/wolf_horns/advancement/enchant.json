@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": "Horn of the Wild",
+		"description": "Optain a goat horn enchanted with Call of the Wild.",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "wolf_horns:root",
+	"criteria": {
+		"sit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:goat_horn",
+						"components": {
+							"minecraft:enchantments": {
+								"levels": {
+									"wolf_horns:call_of_the_wild": 1
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:lead"
+		},
+		"title": "Wild Call",
+		"description": "Use a goat horn enchanted with Call of the Wild.",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "wolf_horns:enchant",
+	"criteria": {
+		"sit": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": "minecraft:goat_horn",
+					"predicates": {
+						"minecraft:enchantments": [
+							{
+								"enchantments": "wolf_horns:call_of_the_wild",
+								"levels": {
+									"min": 1,
+									"max": 1
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"sends_telemetry_event": false
+}

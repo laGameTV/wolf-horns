@@ -3,17 +3,19 @@
 		"translate": "enchantment.wolf_horns.call_of_the_wild",
 		"fallback": "Call of the Wild"
 	},
-	"supported_items": "minecraft:goat_horn",
+	"supported_items": ["minecraft:goat_horn", "minecraft:stick", "minecraft:book"],
+	"exclusive_set": [],
+	"effects": {},
 	"weight": 10,
-	"max_level": 3,
+	"max_level": 1,
 	"min_cost": {
-		"base": 10,
-		"per_level_above_first": 10
+		"base": 3,
+		"per_level_above_first": 1
 	},
 	"max_cost": {
-		"base": 30,
-		"per_level_above_first": 8
+		"base": 3,
+		"per_level_above_first": 1
 	},
 	"anvil_cost": 2,
-	"slots": []
+	"slots": ["hand"]
 }

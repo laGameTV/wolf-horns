@@ -1,17 +1,17 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:goat_horn"
+			"id": "minecraft:soul_sand"
 		},
-		"title": "Sit down",
-		"description": "Sneak while holding a goat horn to make your dogs in a X block radius sit down.",
+		"title": "Stand up",
+		"description": "Use a goat horn to make your dogs in a X block radius stand up.",
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": false
 	},
-	"parent": "wolf_horns:root",
+	"parent": "wolf_horns:function/sit",
 	"criteria": {
-		"sit": {
+		"unsit": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
 				"item": {
@@ -22,7 +22,7 @@
 								"enchantments": "wolf_horns:call_of_the_wild",
 								"levels": {
 									"min": 1,
-									"max": 3
+									"max": 1
 								}
 							}
 						]
@@ -30,14 +30,14 @@
 				},
 				"player": {
 					"flags": {
-						"is_sneaking": true
+						"is_sneaking": false
 					}
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "wolf_horns:sit"
+		"function": "wolf_horns:unsit"
 	},
 	"sends_telemetry_event": false
 }
