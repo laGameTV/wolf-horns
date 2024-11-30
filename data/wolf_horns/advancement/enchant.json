@@ -3,8 +3,14 @@
 		"icon": {
 			"id": "minecraft:enchanted_book"
 		},
-		"title": "Horn of the Wild",
-		"description": "Optain a goat horn enchanted with Call of the Wild.",
+		"title": {
+			"translate": "advancements.wolf_horns.enchant.title",
+			"fallback": "Horn of the Wild"
+		},
+		"description": {
+			"translate": "advancements.wolf_horns.enchant.description",
+			"fallback": "Obtain a goat horn enchanted with Call of the Wild."
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

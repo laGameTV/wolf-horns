@@ -1,3 +1,0 @@
-# execute as @a[nbt={SelectedItem:{id:"minecraft:goat_horn", components: {"minecraft:enchantments":{levels:{"wolf_horns:call_of_the_wild":1}}}}}] run function wolf_horns:macro/actionbar with storage wolf_horns:main args
-# execute as @a[nbt={SelectedItem:{id:"minecraft:goat_horn", components: {"minecraft:enchantments":{levels:{"wolf_horns:call_of_the_wild":2}}}}}] run function wolf_horns:macro/actionbar with storage wolf_horns:main args
-# execute as @a[nbt={SelectedItem:{id:"minecraft:goat_horn", components: {"minecraft:enchantments":{levels:{"wolf_horns:call_of_the_wild":3}}}}}] run function wolf_horns:macro/actionbar with storage wolf_horns:main args

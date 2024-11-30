@@ -3,8 +3,14 @@
 		"icon": {
 			"id": "minecraft:magma_block"
 		},
-		"title": "Sit down",
-		"description": "Sneak while holding a goat horn to make your dogs in a X block radius sit down.",
+		"title": {
+			"translate": "advancements.wolf_horns.function.sit.title",
+			"fallback": "Sit down"
+		},
+		"description": {
+			"translate": "advancements.wolf_horns.function.sit.description",
+			"fallback": "Sneak while holding a goat horn to make your dogs in a X block radius sit down."
+		},
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": false

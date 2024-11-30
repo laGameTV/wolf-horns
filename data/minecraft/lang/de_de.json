@@ -1,3 +1,11 @@
 {
-	"enchantment.wolf_horns.call_of_the_wild": "Ruf der Wildnis"
+	"enchantment.wolf_horns.call_of_the_wild": "Ruf der Wildnis",
+	"advancements.wolf_horns.function.unsit.title": "Aufstehen",
+	"advancements.wolf_horns.function.unsit.description": "Use a goat horn to make your dogs in the vicinity stand up.",
+	"advancements.wolf_horns.function.sit.title": "Hinsetzen",
+	"advancements.wolf_horns.function.sit.description": "Schleiche, während du ein Ziegenhorn hältst, um deine Hunde im Umkreis hinsetzen zu lassen.",
+	"advancements.wolf_horns.enchant.title": "Horn der Wildnis",
+	"advancements.wolf_horns.enchant.description": "Erhalte ein Ziegenhorn, das mit Ruf der Wildnis verzaubert ist.",
+	"advancements.wolf_horns.use.title": "Wilder Ruf",
+	"advancements.wolf_horns.use.description": "Benutze ein Ziegenhorn, das mit Ruf der Wildnis verzaubert ist, um mindestens einen Wolf zu kontrollieren."
 }

@@ -4,7 +4,7 @@
       "id": "minecraft:goat_horn"
     },
     "title": "Wolf Horns",
-    "description": "Datapack installed successfully.",
+    "description": "github.com/laGameTV/wolf-horns",
     "background": "minecraft:textures/block/powder_snow.png",
     "frame": "task",
     "show_toast": true,

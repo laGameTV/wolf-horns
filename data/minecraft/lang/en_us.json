@@ -1,3 +1,11 @@
 {
-	"enchantment.wolf_horns.call_of_the_wild": "Call of the Wild"
+	"enchantment.wolf_horns.call_of_the_wild": "Call of the Wild",
+	"advancements.wolf_horns.function.unsit.title": "Stand up",
+	"advancements.wolf_horns.function.unsit.description": "Use a goat horn to make your dogs within range stand up.",
+	"advancements.wolf_horns.function.sit.title": "Sit down",
+	"advancements.wolf_horns.function.sit.description": "Sneak while holding a goat horn to make your dogs within range sit down.",
+	"advancements.wolf_horns.enchant.title": "Horn of the Wild",
+	"advancements.wolf_horns.enchant.description": "Obtain a goat horn enchanted with Call of the Wild.",
+	"advancements.wolf_horns.use.title": "Wild Call",
+	"advancements.wolf_horns.use.description": "Use a goat horn enchanted with Call of the Wild to controll at least one wolf."
 }

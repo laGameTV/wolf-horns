@@ -3,8 +3,14 @@
 		"icon": {
 			"id": "minecraft:soul_sand"
 		},
-		"title": "Stand up",
-		"description": "Use a goat horn to make your dogs in a X block radius stand up.",
+		"title": {
+			"translate": "advancements.wolf_horns.function.unsit.title",
+			"fallback": "Stand up"
+		},
+		"description": {
+			"translate": "advancements.wolf_horns.function.unsit.description",
+			"fallback": "Use a goat horn to make your dogs in a X block radius stand up."
+		},
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": false
